@@ -1,0 +1,206 @@
+@import url('/css/import/reset.css');
+@import url('/css/import/font.css');
+
+
+/* class 고유명사 : forMob */
+
+html, body{
+  overflow-x: hidden;
+}
+
+.forMob-wrap{
+  max-width: 720px;
+  overflow-x: hidden;
+  background: #fff;
+}
+.forMob-bg-image{
+  position: absolute;
+  top: 0; left: 0;
+  max-width: 720px;
+}
+.forMob-cont-wrap{
+  position: absolute;
+  top: 0; left: 0;
+  max-width: 720px;
+  padding: 0 16px;
+}
+.forMob-user-info{
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+/* ======================================= */
+/* 교육이력 */
+/* ======================================= */
+.forMob-title{
+  position: relative;
+  text-align: center;
+}
+.forMob-title h1{
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.forMob-title h2{
+  width: fit-content;
+  padding: 40px 0 0 0;
+  margin: 0 auto;
+}
+
+/* ======================================= */
+/* Table */
+/* ======================================= */
+.forMob-list{
+  margin-top: 36px;
+  padding: 40px 30px;
+  width: 688px;
+  height: 862px;
+  border-radius: 16px;
+}
+.table-indicator{
+  font-family: "NotoSansKR-400";
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.table-indicator strong{
+  font-family: "NotoSansKR-700";
+  color: #005EAE;
+}
+.forMob-list .table-wrap{
+  max-height: 730px;
+  overflow-y: auto;
+}
+.forMob-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.forMob-table th{
+  font-family: "NotoSansKR-700";
+  font-size: 24px;
+  color: #222222;
+  padding: 24px 0;
+  background: #f9f9f9;
+  border: 3px solid #0253a5;
+  position: sticky; 
+  position: -webkit-sticky;
+  top: 0;
+}
+table thead:nth-of-type(1) tr:nth-of-type(1) th {
+  border-right: none !important;
+  border-left: none !important;
+}
+table thead th {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: inset 0 3px 0 #0253a5, inset 0 -1px 0 #e1e1e1;
+  padding: 2px 0;
+}
+.forMob-table td{
+  font-family: "NotoSansKR-400";
+  font-size: 24px;
+  color: #606060;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+/* ======================================= */
+/* Table - button */
+/* ======================================= */
+.btn-basic{
+  font-family: "NotoSansKR-700";
+  color: #505050;
+  border: 2px solid #c6c6c6;
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+.forMob-table td .btn-basic:nth-child(1){
+  margin-right: 4px;
+}
+
+/* ======================================= */
+/* 교육 이수증, 수료증, 자격증 */
+/* ======================================= */
+.forMob-certificate-wrap{
+  position: absolute;
+  top: 0; left: 0;
+  max-width: 720px;
+  padding: 0 40px;
+}
+.forMob-form{
+  padding: 35px 50px;
+  width: 640px;
+  height: 930px;
+}
+.idphoto-wrap{
+  width: 200px; height: 260px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.idphoto-wrap > img{
+  object-fit: contain;
+  object-position: center center;
+}
+
+.forMob-certificate{
+  margin-top: 30px;
+  min-height: 355px;
+  max-height: 355px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.forMob-certificate .label{
+  font-family: "NotoSansKR-700";
+  color: #505050;
+  font-size: 28px;
+}
+.forMob-certificate .words{
+  font-family: "NotoSansKR-400";
+  color: #505050;
+  font-size: 28px;
+  max-width: 370px;
+}
+.forMob-certificate a.words{
+  font-family: "NotoSansKR-400";
+  color: #505050;
+  font-size: 20px;
+  max-width: 370px;
+  margin-left: 38px;
+  margin-bottom: 20px;
+}
+
+.flex-row{
+  display: flex; flex-direction: row;
+}
+.flex-col{
+  display: flex; flex-direction: column;
+}
+.gap-48{gap: 48px;}
+.ml-auto{margin-left: auto; padding-right: 100px;}
+.flex-right{align-items: flex-end;}
+
+.forMob-form .comment{
+  font-family: "NanumMyeongjo-900";
+  font-size: 24px;
+  color: #505050;
+  margin: 40px 0;
+}
+.forMob-form .by{
+  font-family: "NotoSansKR-900";
+  color: #2c2151;
+  font-size: 32px;
+  text-align: center;
+}
+.forMob-form .by > img{
+  position: absolute;
+  right: 123px;
+  bottom: 30px;
+}
+
+.forMob-qrcode{
+  position: absolute;
+  top: 1175px;
+  left: 270px;
+}
