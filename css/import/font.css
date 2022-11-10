@@ -64,31 +64,10 @@ h2, .h2 {
 h2 > span{font-family: "NotoSansKR-700";}
 .text-gray-400{color: #505050;}
 
-h3, .h3 {
-  font-size: 24px;
-  font-family: "NotoSansKR-700"; 
-}
-
-h4, .h4 {
-  font-size: 20px;
-  font-family: "NotoSansKR-700"; 
-}
-
-h5, .h5 {
-  font-size: 18px;
-  font-family: "NotoSansKR-700"; 
-}
-
-h6, .h6 {
-  font-size: 16px;
-  font-family: "NotoSansKR-700"; 
-}
-
 .text-c{text-align: center !important;}
 .text-l{text-align: left !important;}
 .text-r{text-align: right !important;}
 
 img {
-  /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
   display: block;
 }

@@ -2,12 +2,11 @@
 @import url('/css/import/font.css');
 
 
-/* class 고유명사 : forMob */
-
 html, body{
   overflow-x: hidden;
 }
 
+/* class 고유성 : forMob */
 .forMob-wrap{
   max-width: 720px;
   overflow-x: hidden;
